@@ -3,6 +3,11 @@ package praktek02;
 public class Rectangle {
     Integer Harga;
     Integer Jumlah_Barang;
+
+    public Rectangle() {
+        Harga = 800000;
+        Jumlah_Barang = 7;
+    }
     
     void cetakInfo() {
         System.out.println("=====================");
@@ -17,3 +22,8 @@ public class Rectangle {
         return total;
         
     }
+        void cetaktotal(){
+            System.out.println("totalnya adalah: "+hitungtotal());
+            
+        }
+   }
