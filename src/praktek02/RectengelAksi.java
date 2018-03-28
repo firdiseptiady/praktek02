@@ -6,5 +6,7 @@ public class RectengelAksi {
         Rectangle rl = new Rectangle();
         rl.Harga = 500000;
         rl.Jumlah_Barang = 3;
+        
+        rl.cetakInfo();
     }
 }
