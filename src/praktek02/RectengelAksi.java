@@ -9,6 +9,7 @@ public class RectengelAksi {
         
         rl.cetakInfo();
         System.out.println("total Rectangle = "+rl.hitungtotal());
+        rl.cetaktotal();
         
     }
 }
