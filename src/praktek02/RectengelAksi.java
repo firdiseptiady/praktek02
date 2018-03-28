@@ -8,5 +8,7 @@ public class RectengelAksi {
         rl.Jumlah_Barang = 3;
         
         rl.cetakInfo();
+        System.out.println("total Rectangle = "+rl.hitungtotal());
+        
     }
 }
